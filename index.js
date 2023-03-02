@@ -94,4 +94,42 @@ inquirer
                 console.log("Typo in the badge switch case. Fix it");
                 break;
         }
+        let readmeText = 
+        `# ${response.title}
+
+${badge}
+        
+## Description
+${response.description}
+        
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+        
+## Installation
+${response.installation}
+        
+
+## Usage
+${response.usage}
+        
+## Credits
+${response.contributing}
+        
+## License
+Software provided under ${response.license}. Please refer to the included license file for more details.
+        
+## Questions
+You can find my Github profile [here](https://www.github.com/${response.username}).
+        
+For any additional questions regarding this application, you can email me at ${response.email}`;
+
+        fs.writeFile('./Output/README.md', readmeText, err => {
+            if (err) {
+                console.error(err);
+            }
+        })
     });
