@@ -13,11 +13,14 @@ A simple command-line application that will automate the process of creating a p
 - [License](#license)
         
 ## Installation
-No installation required
+No installation required for this application specifically, but node.js is required to use it.
         
 
 ## Usage
-Note that node.js is required for this application. In the command line, type "node index.js" and answer the prompts. Your answers will be used to create a README file in the Output folder
+Note that node.js is required for this application. In the command line, type "node index.js" and answer the prompts. Your answers will be used to create a README file in the Output folder. You may then add to or alter the file manually.
+
+Please refer to the following video walkthrough
+https://www.youtube.com/watch?v=6DwDeUzhVHE
         
 ## Credits
 N/A
