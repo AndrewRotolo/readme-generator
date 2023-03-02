@@ -48,7 +48,7 @@ inquirer
         },
     ])
     .then((response) => {
-        console.log(response);
+        // console.log(response);
         var badge = '';
         switch(response.license) {
             case "Apache Licsnes 2.0":
@@ -108,6 +108,7 @@ ${response.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Questions](#questions)
         
 ## Installation
 ${response.installation}
