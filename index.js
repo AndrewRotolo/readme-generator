@@ -51,7 +51,7 @@ inquirer
         // console.log(response);
         var badge = '';
         switch(response.license) {
-            case "Apache Licsnes 2.0":
+            case "Apache License 2.0":
                 badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
                 break;
             case "GNU General Public License v3.0":
